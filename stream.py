@@ -75,7 +75,7 @@ textarea {
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 #loading the saved model
-loaded_model = pickle.load(open('D:/document/Binus/Semester4/ML/Assessment/latdeploy4usingstreamlit/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 #creating a function for prediction
 def diabetes_prediction(input_data):

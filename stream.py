@@ -1,6 +1,7 @@
 import numpy as np
 import pickle
 import streamlit as st
+import sklearn
 page_bg_img = """
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Aptos&display=swap');
